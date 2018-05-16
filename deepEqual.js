@@ -18,4 +18,4 @@ function testDeepEqual(){
 	console.log(deepEqual(emp1, emp2));
 }
 
-test(); // Output: true
+testDeepEqual(); // Output: true
