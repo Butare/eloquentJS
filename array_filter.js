@@ -14,7 +14,6 @@ function filter(array, test) {
 }
 
 // transform the filtered array with map.
-
 function map(array, transform) {
 	let transformed = [];
 	for (let element of array) {
