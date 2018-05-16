@@ -12,7 +12,7 @@ function deepEqual(obj1, obj2) {
 	return flag;
 }
 
-function test(){
+function testDeepEqual(){
 	let emp1 = {name: "Hiro", age: 30};
 	let emp2 = {name: "Hiro", age: 30};
 	console.log(deepEqual(emp1, emp2));
