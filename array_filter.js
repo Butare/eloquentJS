@@ -13,4 +13,19 @@ function filter(array, test) {
 	return passed;
 }
 
+// transform the filtered array with map.
+
+function map(array, transform) {
+	let transformed = [];
+	for (let element of array) {
+		transformed.push(transform(element));
+	}
+	return transformed;
+}
+
+
 console.log(filter(SCRIPTS, script => script.living));
+
+let filtered = filter(SCRIPTS, script => script.living);
+
+console.log(map(filtered, key => key.name)); 
