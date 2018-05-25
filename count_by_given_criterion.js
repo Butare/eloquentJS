@@ -13,4 +13,5 @@ function countBy(items, groupName) {
 }
 
 console.log(countBy([1, 2, 3, 4, 5], n => n < 2));
+//output: [ { name: true, count: 1 }, { name: false, count: 4 } ]
 
