@@ -4,7 +4,10 @@
  * the 'class' keyword starts a class declaration, which allows us to define a constructor
  * and a set of methods all in a single place.
  * any number of methods may be written inside the declaration's curly braces.
- */
+ *
+ * Note: Class declarations currently (May,2018) allow only methods-- properties that hold functions
+ * 	 to be added to the prototype.
+*/
 class Rabbit {
   constructor(type) {
   	this.type = type;
