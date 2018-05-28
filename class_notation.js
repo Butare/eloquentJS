@@ -1,5 +1,6 @@
 /*
  * Javascript classes are constructor functions with a prototype property. 
+ *
  */
 class Rabbit {
   constructor(type) {
@@ -12,7 +13,7 @@ class Rabbit {
 
 }
 
-// class invocation
+// object creation.
 let killerRabbit = new Rabbit('killer'); // killer rabbit type
 let blackRabbit = new Rabbit('black'); // black rabbit type.
 
