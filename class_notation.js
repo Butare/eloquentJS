@@ -1,6 +1,9 @@
 /*
  * Javascript classes are constructor functions with a prototype property. 
  *
+ * the 'class' keyword starts a class declaration, which allows us to define a constructor
+ * and a set of methods all in a single place.
+ * any number of methods may be written inside the declaration's curly braces.
  */
 class Rabbit {
   constructor(type) {
