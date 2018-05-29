@@ -1,10 +1,10 @@
-/*
- * This is the detailed implementation of Array.prototype.reduce() 
+/**
+ * This is the detailed implementation of Array.prototype.reduce()
  *
- *	array: list of values to be reducted
- *	combine: a combining function
- *	start: a start value
- * */
+ * @param {array} array - A list of elements
+ * @param {combine} function - What action should be taken.
+ * @param {start} start - a starting value. 
+ */
 
 function reduce(array, combine, start) {
 	let current = start;
